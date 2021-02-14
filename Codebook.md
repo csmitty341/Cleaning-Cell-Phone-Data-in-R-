@@ -9,13 +9,13 @@ The UCI HAR Dataset comes in a .zip file that must be unpackaged
 
 The scipt executes the following analysis
   1.  Reads the training and test data into defined variables 
-    - features : List 1 column, 561 rows; contains the variables measures along the x, y , and z axis
-    - subject_train : List of 1 column, 7352 rows; this identifies the individual device the measurements come from 
-    - x_train : Contains 7352 rows and 561 columns; these are the recorded measurements for the training data
-    - y_train : Contains 7352 rows and 1 column; identifies the activity (Walking, sitting, Laying, etc.) 
-    - subject_test : List of 1 column, 2947 rows; this identifies the individual device the measurements come from 
-    - x_test : Contains 2947 rows and 561 columns; these are the recorded measurements for the test data
-    - y_test : Contains 2947 rows and 1 column; identifies the activity (Walking, sitting, Laying, etc.)
+      a.  features : List 1 column, 561 rows; contains the variables measures along the x, y , and z axis
+      b.  subject_train : List of 1 column, 7352 rows; this identifies the individual device the measurements come from 
+      c.  x_train : Contains 7352 rows and 561 columns; these are the recorded measurements for the training data
+      d.  y_train : Contains 7352 rows and 1 column; identifies the activity (Walking, sitting, Laying, etc.) 
+      e.  subject_test : List of 1 column, 2947 rows; this identifies the individual device the measurements come from 
+      f.  x_test : Contains 2947 rows and 561 columns; these are the recorded measurements for the test data
+      g.  y_test : Contains 2947 rows and 1 column; identifies the activity (Walking, sitting, Laying, etc.)
   
   2. Combines the training and test data
     - x_comb : binds the test data below the rows of the training data
